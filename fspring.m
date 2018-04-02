@@ -3,7 +3,7 @@ function FORCE = fspring(k1,k2,m,g,L0,x)
 %    input: k1, k2 (spring constants), L0 (natural length)
 %           m (mass), g (gravity constant)
 %           x (row of 2, position)
-%    output: FORCE (column of 2, forces in x and y directions)
+%    output: FORCE (row of 2, forces in x and y directions)
 
 % Compute force components in the x direction
 
@@ -15,7 +15,6 @@ FORCE(1)= ;
 
 FORCE(2)= ;
 
-% Return a column vector
-FORCE = FORCE';
+
  
 return;
