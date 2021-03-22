@@ -11,7 +11,7 @@ Nonlinear equations, Garcia Section 4.3
 </div>
 
 ## Problem 1 (in-class)<a name="2"></a>
-Write a short <tt>MATLAB</tt> program to find the three roots of this single-variable nonlinear equation. 
+In `nonlinearpractice.m`, find the three roots of this single-variable nonlinear equation. 
 
 <img src="NLeq1.PNG" width="250">
 
@@ -21,7 +21,7 @@ Write a short <tt>MATLAB</tt> program to find the three roots of this single-var
 Can you find all 3 roots? 
 
 ## Problem 2 (in-class)<a name="3"></a>
-Write a short program to find the steady-state solutions to the Lorenz atmospheric model.
+In `nonlinearpractice.m`, find the steady-state solutions to the Lorenz atmospheric model.
 
 <img src="NLeq2.PNG" height="100">
 
