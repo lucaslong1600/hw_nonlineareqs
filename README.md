@@ -58,4 +58,4 @@ Complete the <tt>nltwospring.m</tt> and <tt>fspring.m</tt> programs to solve for
  *  Update the solution for the equilibrium position using a Newton Raphson iteration with a while loop. If preferred, you may find and use the partial derivatives for the forces to create the Jacobian matrix, rather than using numerical derivatives.
  *  End the loop when the update in position is less than 10<sup>-6</sup> meters OR after the 10th iteration, whichever comes first.
  *  Display the equilibrium position and <tt>norm(dx)</tt> each iteration.
- *  Demonstrate that the program works, for an initial guess of <tt>[x y] = [0 0]</tt>.
+ *  Demonstrate that the program works, for an initial guess of <tt>[x y] = [1 -1]</tt>.
